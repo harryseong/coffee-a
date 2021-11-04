@@ -1,3 +1,4 @@
 <div class="content">
     <p>home works!</p>
+    <div *ngFor="let coffee of coffeeMakers$ | async">{{coffee.manufacturer}} {{coffee.model}}</div>
 </div>
